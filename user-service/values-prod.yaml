@@ -1,0 +1,8 @@
+replicaCount: 3
+image:
+  tag: v1
+autoscaling:
+  enabled: true
+  minReplicas: 3
+  maxReplicas: 6
+  targetCPUUtilizationPercentage: 70
